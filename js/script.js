@@ -1,11 +1,11 @@
 {
     const tasks = [
         {
-            content: "nagrać lekcję",
+            content: "Pojechać na spotkanie",
             done: false,
         },
         {
-            content: "zjeść pierogi",
+            content: "Masaż",
             done: true,
         },
     ];
@@ -25,11 +25,11 @@
     }
 
     const toggleTaskDone = (taskIndex) => {
-tasks[taskIndex].done = !tasks[taskIndex].done;
-render();
+        tasks[taskIndex].done = !tasks[taskIndex].done;
+        render();
     }
 
-    const bindEvents = () => { 
+    const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
         removeButtons.forEach((removeButton, index) => {
             removeButton.addEventListener("click", () => {
@@ -37,10 +37,10 @@ render();
             });
         });
 
-    const toggleDoneButtons = document.querySelectorAll(".js-done");
-    toggleDoneButtons.forEach((toggleDoneButton, index) => {
-        toggleDoneButton.addEventListener("click", () => {
-               toggleTaskDone(index);
+        const toggleDoneButtons = document.querySelectorAll(".js-done");
+        toggleDoneButtons.forEach((toggleDoneButton, index) => {
+            toggleDoneButton.addEventListener("click", () => {
+                toggleTaskDone(index);
             });
         });
     };
@@ -50,15 +50,17 @@ render();
         let htmlString = "";
 
         for (const task of tasks) {
-            htmlString += `
-            <li
-            ${task.done ? " style=\"text-decoration: line-through\"" : ""}
-            >
-            <button class="js-done">zrobione?</button>
-            <button class="js-remove">usuń</button>
-            ${task.content}
-            </li>
-            `;
+            htmlString +=
+                `<li class="list__task">
+          <button class="button__done js-done">
+          ${task.done ? "✓" : ""}
+          </button>
+          <span class="list__text ${task.done ? "list__task--done" : ""}>
+          ${task.content}
+          </span>
+          <button class="button__remove js-remove">🗑</button>
+          </li>
+          `;
         }
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
