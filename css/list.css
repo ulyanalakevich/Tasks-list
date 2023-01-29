@@ -1,4 +1,4 @@
-.list__task--done {
+.list__text--done {
     text-decoration: line-through;
 }
 .list__task {
