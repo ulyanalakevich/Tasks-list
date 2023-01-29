@@ -1,0 +1,16 @@
+.container {
+  margin: 20px 0;
+  background-color: white;
+}
+
+.container__header {
+padding: 20px;
+border-bottom: 3px solid #bbb;
+margin: 0;
+font-weight: 700;
+}
+
+.container__tasks {
+    margin: 0;
+    padding: 20px;
+}

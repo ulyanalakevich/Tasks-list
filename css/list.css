@@ -1,0 +1,42 @@
+.list__task--done {
+    text-decoration: line-through;
+}
+.list__task {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.list__task:last-of-type {
+    border-bottom: none;
+}
+
+.button__done {
+    background-color: green;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+}
+
+.button__remove {
+    background-color: red;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+}
+
+.list__text {
+    padding: 0px 20px;
+}
+
+.list {
+    margin: 0;
+    padding: 10px;
+    font-weight: 400px;
+}
