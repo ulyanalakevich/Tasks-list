@@ -1,12 +1,13 @@
 .list__text--done {
     text-decoration: line-through;
 }
+
 .list__task {
     display: grid;
     grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #ddd;
 }
 
 .list__task:last-of-type {
