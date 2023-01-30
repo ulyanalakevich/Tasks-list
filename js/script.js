@@ -1,7 +1,7 @@
 {
     const tasks = [
         {
-            content: "Pojechać na spotkanie",
+            content: "Spotkanie",
             done: false,
         },
         {
@@ -25,7 +25,7 @@
     };
 
     const toggleTaskDone = (index) => {
-        tasks[taskIndex].done = !tasks[index].done;
+        tasks[index].done = !tasks[index].done;
         render();
     };
 
