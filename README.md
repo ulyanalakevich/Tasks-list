@@ -1,6 +1,6 @@
 # Tasks list
 
-![video](gif/video.gif)
+![video](gif/Animation.gif)
 
 ## Demo
 
