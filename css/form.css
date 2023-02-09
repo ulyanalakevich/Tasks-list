@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
-    align-items: center;
     margin: 0;
     padding: 20px;
 }
