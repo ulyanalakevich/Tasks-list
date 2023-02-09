@@ -25,3 +25,7 @@ padding: 10px;
 .form__item--button:hover{
     background-color: rgb(0, 138, 138);
 }
+
+.form__item--button:active{
+    background-color: rgb(1, 153, 153);
+}
