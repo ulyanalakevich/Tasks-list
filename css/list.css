@@ -10,25 +10,19 @@
     border-bottom: 1px solid #ddd;
 }
 
-.list__task:last-of-type {
-    border-bottom: none;
-}
-
 .button__done {
     background-color: green;
     color: white;
-    width: 40px;
-    height: 40px;
-    padding: 5px;
+    width: 35px;
+    height: 35px;
     border: none;
 }
 
 .button__remove {
     background-color: red;
     color: white;
-    width: 40px;
-    height: 40px;
-    padding: 5px;
+    width: 35px;
+    height: 35px;
     border: none;
 }
 
