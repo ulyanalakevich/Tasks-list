@@ -21,23 +21,23 @@
 }
 
 .button--done:hover {
-    background-color: rgb(0, 141, 0);
+    background-color: hsl(120, 100%, 30%);
 }
 
 .button--done:active {
-    background-color: rgb(0, 154, 0);
+    background-color: hsl(120, 100%, 35%);
 }
 
 .button--remove {
-    background-color: rgb(218, 1, 1);
+    background-color: red;
 }
 
 .button--remove:hover {
-background-color: rgb(234, 3, 3);
+background-color: hsl(0, 100%, 55%);
 }
 
 .button--remove:active {
-    background-color: hsl(0, 100%, 50%);
+    background-color: hsl(0, 100%, 60%);
     }
     
 .list__text {
