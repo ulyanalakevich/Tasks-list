@@ -18,12 +18,20 @@
     border: none;
 }
 
+.button__done:hover {
+    background-color: rgb(0, 141, 0);
+}
+
 .button__remove {
-    background-color: red;
+    background-color: rgb(238, 2, 2);
     color: white;
     width: 35px;
     height: 35px;
     border: none;
+}
+
+.button__remove:hover {
+background-color: rgb(255, 0, 0);
 }
 
 .list__text {
