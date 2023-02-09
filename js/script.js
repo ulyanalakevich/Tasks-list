@@ -57,7 +57,9 @@
           <span class="list__text ${task.done ? "list__text--done" : ""}">
           ${task.content}
           </span>
-          <button class="button button--remove js-remove"> 🗑</button>
+          <button class="button button--remove js-remove"> 
+          🗑
+          </button>
           </li>
           `;
         }
