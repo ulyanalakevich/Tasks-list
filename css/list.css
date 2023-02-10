@@ -14,6 +14,7 @@
     width: 35px;
     height: 35px;
     border: none;
+    transition: 2s;
 }
 
 .button--done {
@@ -22,6 +23,7 @@
 
 .button--done:hover {
     background-color: hsl(120, 100%, 30%);
+    transform: scale(1.02);
 }
 
 .button--done:active {
@@ -33,11 +35,12 @@
 }
 
 .button--remove:hover {
-background-color: hsl(0, 100%, 55%);
+background-color: hsl(0, 100%, 58%);
+transform: scale(1.02);
 }
 
 .button--remove:active {
-    background-color: hsl(0, 100%, 60%);
+    background-color: hsl(0, 100%, 63%);
     }
     
 .list__text {
