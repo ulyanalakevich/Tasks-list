@@ -9,6 +9,11 @@
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
+
+.list__task--hidden {
+    display: none;
+}
+
 .button {
     color: white;
     width: 35px;
