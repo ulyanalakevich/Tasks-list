@@ -20,7 +20,8 @@ padding: 10px;
    background-color: teal;
    color: white;
    height: 40px;
-   transition: 2s;
+   transition: 0.5s;
+   cursor: pointer;
 }
 
 .form__item--button:hover{

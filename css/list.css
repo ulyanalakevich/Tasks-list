@@ -1,4 +1,4 @@
-.list__text--done {
+.list__taskDone {
     text-decoration: line-through;
 }
 
@@ -8,6 +8,7 @@
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ddd;
+    grid-gap: 20px;
 }
 
 .list__task--hidden {
@@ -19,7 +20,8 @@
     width: 35px;
     height: 35px;
     border: none;
-    transition: 2s;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .button--done {
@@ -48,9 +50,6 @@ transform: scale(1.02);
     background-color: hsl(0, 100%, 63%);
     }
     
-.list__text {
-    padding: 0px 20px;
-}
 
 .list {
     margin: 0;
